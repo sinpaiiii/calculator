@@ -58,12 +58,12 @@ function opp1() {
     b.innerHTML = w;
   } else if (y == 6) {
     w = c / x;
-    b.innerHTML = w;
+    b.innerHTML = w.toFixed(5);
   } else if (y == 3) {
     w = c - x;
-    b.innerHTML = w;
+    b.innerHTML = w.toFixed(5);
   } else {
-    w = (c / x) * 100;
+    w = c % x;
     b.innerHTML = w;
   }
   console.log(x);
